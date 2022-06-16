@@ -1,0 +1,822 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  }
+
+a {
+  text-decoration: none;
+  color: white;
+  }
+
+@font-face {
+  font-family: arvr;
+  src: url(../arvr.ttf);
+}
+
+@font-face {
+  font-family: popb;
+  src: url(../popb.ttf);
+}
+
+@font-face {
+  font-family: popl;
+  src: url(../popl.ttf);
+}
+
+@font-face {
+  font-family: popm;
+  src: url(../popm.ttf);
+}
+
+@font-face {
+  font-family: popsb;
+  src: url(../popsb.ttf);
+}
+
+@font-face {
+  font-family: popr;
+  src: url(../popr.ttf);
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.section_header h2{
+  font-family: popl;
+  font-size: 30px;
+}
+
+.hr_styling{
+  border-bottom: 4px solid #39B49B;
+  width: 50px; 
+  text-align: center; 
+}
+
+/* styling header section */
+header{
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  background-color: white;
+}
+.upper_header{
+  background-color: white;
+  padding: 20px 0;
+}  
+
+.upper_header .col-1{
+  width: 20%;
+  float: left;
+  font-family: popr;
+  }
+
+header .col-1 img{ 
+  width: 220px;
+ }
+
+.upper_header .col-2 ul li{
+  padding-right: 18px;
+  font-family: arvr;
+  font-size: 18px;
+}
+
+header .upper_header .col-2{
+  width: 80%;
+  float: left;
+  text-align: end;
+  line-height: 3;
+  }
+
+header ul {
+  list-style: none;
+}
+
+header ul li{
+  display: inline-block;
+  font-family: popr;
+}
+
+header .lower_header{
+  background-color: #157FDA;
+}
+
+header .upper_header ul li a{
+  font-size: large;
+  margin: 0 10px;
+}
+
+header ul li a {
+  background-color: #157FDA;
+  color: white;
+  text-align: center;
+  padding: 12px 15px;
+ }
+
+.nav_bar{
+  float: left;
+  padding: 15px 0;
+  }
+
+.nav_bar li a{
+  font-family: 'popm';
+  font-size: large;
+}
+
+.search_bar{
+  width: 20%;
+  float: left;
+  }
+
+form{
+  padding-top: 10px;
+}
+
+#header_search{
+  border: none;
+  border-radius: 25px;
+  padding: 13px 30px;
+  }
+
+.lower_header ul li a i{
+  background-color: #157FDA;
+  color: white;
+}
+
+.lower_header ul li a{
+  transition: all 0.2s ease-in-out;
+  margin: 0 10px;
+}
+
+.lower_header ul li a:hover{
+  box-shadow: 5px 5px;
+  background-color: #39B49B;
+}
+
+.lower_header .col-1{
+  width: 80%;
+  float: left;
+}
+
+.lower_header .col-2{
+  width: 20%;
+  float: right;
+}
+
+/* section banner */
+
+.banner{
+  background-image: url('../operation.png');
+  background-repeat: no-repeat;
+  background-position: top;
+  padding-top: 150px;
+  background-origin: content-box;
+   }
+
+.section_header{
+  text-align: center;
+  font-family: popl;
+  padding: 50px 0;
+  }
+
+.circle_heart_width{
+  width: 50px;
+}
+.circle_heart{
+  border-radius: 50%;
+  width: 98px;
+  height: 98px;
+  background-color: white;
+  padding: 21px;
+  position: relative;
+  left: 618px;
+  border: 3px solid #39B49B;
+  }
+
+.banner .one,.banner .two, .banner .three{
+  float: left;
+  width: 33%;
+  padding: 50px;
+  font-family: 'popl';
+  font-size: small;
+  box-shadow: 5px 10px 18px #6c6a6a;
+}
+
+.banner .one{
+  background-color: #2895F1;
+}
+
+.banner .one:hover{
+   padding-bottom: 115px;
+}
+
+.banner .two{
+  background-color: #0071D1;
+  padding-bottom: 50px;
+}
+
+.banner .three{
+  background-color: #0060B1;
+}
+
+.banner .three:hover{
+   padding-bottom: 115px;
+}
+
+.banner i{
+  color: white;
+  text-align: center;
+  }
+
+.banner h2{
+  font-family: popl;
+  text-align: center;
+  font-size: 55px;
+}
+
+.banner p{
+  color: white;
+  font-family: popl;
+  text-align: center;
+}
+
+.banner_lower_section{
+    }
+
+.banner_lower_section h2{
+  font-size: 20px;
+  font-family: 'popb';
+  color: white;
+  padding-bottom: 20px;
+ }
+
+.font_awesome{
+  text-align: center;
+  padding: 20px;
+}
+
+.time_table .col-1, .time_table .col-2{
+  width: 50%;
+  float: left;
+}
+
+.time_table .col-1 p{
+  padding: 10px 0;
+  text-align: left;
+}
+
+.time_table .col-2 p{
+  padding: 10px 0;
+  text-align: right;
+ }
+
+.hr_dotted{
+  border-style: dashed;
+  color: white;
+}
+
+
+/* The Specialist Clinic */
+
+
+
+.specialist .col-1,.specialist .col-2{
+  width: 50%;
+  float: left;
+ }
+
+.specialist .col-1 h4{
+  font-family: popr;
+  color: #157FDA;
+}
+
+.specialist .col-1 h2{
+  font-family: popb;
+  color: black;
+  font-size: xx-large;
+}
+
+.specialist .col-1 p{
+  font-family: popl;
+  color: grey;
+  padding: 20px 0;
+  line-height: 2.3;
+}
+
+.bt_sp {
+  font-size: large;
+  padding: 10px 40px;
+  border-radius: 30px;
+  border: none;
+  color: white;
+  font-family: popr;
+  background-color: #39B49B;
+}
+
+.specialist .col-2 img{
+  width: 100%;
+}
+
+.services{
+  padding: 100px 0;
+}
+.services .overlay{
+  background-color: #157fda;
+}
+.services .overlay p{
+  font-family: 'popm';
+  color: #fff;
+  text-align: center;
+  padding: 10px; 
+}
+.cont {
+  width: 22%;
+  float: left;
+  margin-right: 30px;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.text {
+  font-family: popl;
+  color: white;
+  font-size: small;
+  font-weight: 600;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* The appointment section */
+
+.appointment{
+  background-color: #3DA6BE;
+  padding: 50px 0;
+}
+
+.services_area{
+  width: 70%;
+  float: left;
+}
+
+.contact_form{
+  width: 30%;
+  float: right;
+  padding: 20px;
+  font-family: pop
+}
+
+.contact_form h2{
+background-color: #008CBA;
+color: white;
+padding: 15px;
+font-family: popr;
+font-size: 15px;
+}
+
+.appointment .col-1{
+  float: left;
+  width: 33%;
+  padding: 20px 30px;
+  } 
+
+.appointment .col-1 img{
+  width: 70px;
+}
+
+.appointment .block h4{
+  font-family: popb;
+  color: white;
+  text-align: center;
+}
+
+.appointment .block p{
+  font-family: popl;
+  color: white;
+  font-size: small;
+  text-align: center;
+}
+
+.appointment .block .block_img{
+  text-align: center;
+}
+
+/* The contact section */
+
+.contact_form{
+  background-color: white;
+  box-shadow: 5px 10px 18px #6c6a6a;
+}
+
+.contact_form .input_field{
+  padding: 10px 10px;
+  width: 310px;
+  margin-bottom: 8px;
+  color: grey;
+  font-family: popr;
+}
+
+.contact_form .input_field2{
+  padding: 10px 10px;
+  width: 153px;
+  margin-bottom: 8px;
+  color: grey;
+  font-family: popr;
+}
+.contact_details{
+  padding: 50px 0 ;
+}
+
+.contact_details .col-1,.contact_details .col-2, .contact_details .col-3{
+  width: 33%;
+  padding: 0 15px;
+  float: left;
+}
+
+.contact_details .col-1 img{
+  width: 250px;
+  padding-bottom: 20px;
+}
+
+.contact_details .col-1 p{
+  padding-right: 20px;
+  }
+
+.contact_details .col-2 p{
+  padding-left: 45px;
+}
+
+.contact_details .col-2 h2{
+  color: black;
+}
+
+.contact_details h2 ,.contact_details p{
+  font-family: popl;
+ 
+}
+
+.contact_details h2{
+  padding-bottom: 20px;
+}
+
+.contact_details .col-1,.contact_details .col-2,.contact_details .col-3 p{
+  color: grey;
+}
+
+.contact_details i {
+  color: #3DA6BE;
+  float: left;
+  font-size: 25px;
+  padding: 0 10px;
+}
+
+.contact_details .col-3 i {
+  color: white;
+  font-size: 25px;
+  background-color: #3DA6BE;
+  padding: 13px 20px;
+  position: absolute;
+}
+
+#ct_placeholder {
+  background-color: #e8e8e8;
+  border: none;
+  width: 260px;
+  padding: 15px 10px;
+  color: grey;
+  font-family: popl;
+}
+
+#input_bt {
+  margin: 20px 0 0 100px;
+  font-size: medium;
+  padding: 8px 25px;
+  border-radius: 30px;
+  border: none;
+  color: white;
+  font-family: popr;
+  background-color: #39B49B;
+}
+
+textarea{
+  font-family: popr;
+  color: grey;
+  padding: 10px;
+}
+
+/* Portfolio doctors section */
+
+.portfolio{
+  padding: 50px 0;
+}
+
+.doctor_section{
+  width: 33%;
+  float: left;
+  text-align: center;
+}
+
+.doctor_section h3{
+  font-family: popl;
+  color: blue;
+  text-align: center;
+  }
+
+.doctor_section p {
+  font-family: popl;
+  color: grey;
+  line-height: 2;
+  justify-content: center ;
+ 
+}
+
+.doctors_pics{
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 5px 10px 18px #6c6a6a;
+}
+
+.social_dr{
+  list-style: none;
+  padding: 20px;
+}
+
+.social_dr ul li{
+  display: inline-block;
+  padding: 10px;
+  background-color: #228ED3;
+  color: white;
+  border-radius: 5px;
+}
+
+.doctor_name{
+  padding: 10px 5px; 
+  background-color: #228ED3;
+  color: white;
+  width: 200px;
+  top: -30px;
+  position: relative;
+  text-align: center;
+  left: 100px;
+  font-family: popr;
+  font-size: larger;
+  box-shadow: 5px 10px 18px #6c6a6a;
+}
+
+/* hosting packages section */
+
+
+.hosting{
+  padding: 100px 0;
+  background-image: url("../price.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  font-family: popl;
+}
+
+.hosting h2{
+  font-family: popl;
+  font-size: 30px;
+  text-align: center;
+
+}
+.hosting p{
+   font-family: popb;
+   text-align: center;
+   color: grey;
+ }
+ .hosting_block_middle p{
+  color: #fff;
+ }
+
+.hosting_block{
+  margin-top: 100px;
+  width: 31%;
+  float: left;
+  border: 1px solid; 
+  margin: 80px 0 0 0;
+  padding: 30px;
+  background-color: white;
+  border: none;
+  box-shadow: 5px 10px 18px #6c6a6a;
+}
+.hosting_block .hosting_icons{
+  padding: 30px 0 ;
+  border-bottom: 1px solid lightgray;
+}
+.hosting_block_middle{
+  height: 570px;
+  width: 34%;
+  float: left;
+  border: 1px solid; 
+  margin: 10px;
+  padding: 5px;
+  background-color: white;
+  border: none;
+  box-shadow: 5px 10px 18px #6c6a6a;
+}
+.hosting_block_middle .middle{
+  padding: 20px 40px;
+  color: white;
+  background-color: #39B49B;
+  }
+.hosting_block_middle .middle{
+  padding: 30px 40px;
+}
+.hosting .hosting_icons ul{
+  list-style: none;
+}
+
+.hosting_block_middle .hosting_icons{
+  padding: 30px;
+  border-bottom: 1px solid lightgray;
+}
+
+.hosting_icons ul li i{
+  color: lightgrey;
+  padding: 10px ;
+}
+
+.hr_price{
+  border-bottom: 1px solid gray;
+  text-align: center; 
+}
+
+.bt_hosting{
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: none;
+  margin-left: 100px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-family: 'popr';
+  font-size: inherit;
+}
+.bt_hosting_middle{
+  padding: 15px 40px;
+  border-radius: 30px;
+  border: none;
+  margin-left: 100px;
+  margin-top: 85px;
+  cursor: pointer;
+  font-family: 'popr';
+  font-size: inherit;
+  background-color: #39B49B;
+  color: #fff;
+}
+.gr{
+  color: lightgrey;
+}
+
+
+/* section testimonials */
+
+.testimonials{
+  background-image: url("../lastb.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  font-family: popl;
+  padding: 50px 0;
+}
+
+.testimonials .col-1{
+  width: 50%;
+  float: left;
+}
+  
+.comment{
+  padding: 40px 60px;
+  border: 1px solid #f0f0f0;
+  margin: 0 20px;
+  box-shadow: 5px 10px 50px #dcdcdc;
+}
+
+.comment:hover{
+   box-shadow: 5px 10px 18px #dcdcdc;
+ }
+
+.comment_bloc{
+  background-color: white;
+}
+
+.people{
+  float: left;
+  padding-right: 30px;
+  margin-left: 20px;
+}
+
+.testimonials .comment_by{
+  padding: 20px 0 50px 20px;
+}
+
+/* section contact us */
+
+.contact_us{
+  padding: 50px 0;
+}
+
+.contact_us .contact_wrapper .col-1 {
+  width: 40%;
+  float: left; 
+  padding: 30px 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  }  
+
+.contact_us .contact_wrapper .col-2{
+  width: 60%;
+  float: left; 
+  border: 1px red; 
+}
+
+.ctuspl{
+  color: grey;
+  padding: 10px 0;
+  margin: 8px;
+  border: none;
+  background-color: rgba(0, 0, 0, -0.1);
+  border-bottom: 3px solid white;
+  width: 220px;
+  font-family: popl;
+}
+
+.contact_us .tarea{
+    margin: 8px;
+    padding: 10px 0;
+    height: 100px;
+    font-family: popl;
+    border: none;
+    background-color: rgba(0, 0, 0, -0.1);
+    border-bottom: 3px solid white;
+}
+
+.mapcover{
+  padding: 202px 0;
+}
+
+.contact_wrapper{
+  background-image: url("../map2.png");
+  background-repeat: no-repeat;
+  background-position: top;
+
+}
+
+.contact_us button{
+  padding: 15px 30px;
+  border-radius: 30px;
+  background-color: #228ED3;
+  margin: 20px 0 20px 150px;
+  color: white;
+  font-family: popl;
+  border: none;
+}
+.email_send{
+  box-sizing: border-box;
+
+}
+
+/* Footer Section */
+
+footer{
+  background-color: #157FDA;
+  color: white;
+  font-family: popl;
+  padding: 20px;
+}
+
+footer .col-1{
+  float: left;
+  width: 30%;
+}
+
+footer .col-2{
+  float: right;
+  width: 30%;
+  padding-left: 75px;
+}
+
+footer ul{
+  list-style: none;
+}
+
+footer ul li{
+  display: inline-block;
+}
+
+footer .col-2 ul li i{
+  margin: 0 10px;
+  font-size: 25px;
+}

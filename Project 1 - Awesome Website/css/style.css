@@ -1,0 +1,304 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: mont;
+  src: url('../mont.ttf');
+}
+
+@font-face {
+  font-family: mont-black;
+  src: url('../Montserrat-Black.ttf');
+}
+
+@font-face {
+  font-family: montregular;
+  src: url('../Montserrat-Regular.ttf');
+}
+
+@font-face {
+  font-family: montextrablack;
+  src: url('../Montserrat-ExtraBold.ttf');
+}
+
+a {
+  color: currentcolor;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.active {
+  color: #24964d;
+}
+
+.active_underline {
+  color: #24964d;
+  padding-bottom: 10px;
+  border-bottom: solid 4px #24964d;
+  
+}
+
+header {
+  top: 0;
+  position: relative;
+  background-color: black;
+}
+
+header .row {
+  width: 100%;
+  height: 120px;
+  padding: 40px 0;
+  background-color: black;
+}
+
+header .col-1 {
+  float: left;
+}
+
+header .col-2 {
+  float: right;
+  padding-top: 5px;
+}
+
+header .number {
+  color: white;
+  font-size: 22px;
+  font-family: mont;
+  user-select: none;
+  display: inline-block;
+}
+
+.line1 {
+  padding: 2px 20px;
+  display: inline-block;
+  margin: 0 10px 4px 0;
+  background-color: #24964d;
+}
+
+.nav_bar {
+  padding-top: 50px;
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+}
+
+.nav_bar .col-1 {
+  float: left;
+}
+
+.search {
+  border: none;
+  width: 220px;
+  color: #d7d7d7;
+  font-size: 18px;
+  font-family: mont-black;
+  border-bottom: solid 4px #bfbfbf;
+  
+}
+
+.nav_bar .col-2 {
+  float: right;
+}
+
+.nav_bar .col-2 ul {
+  list-style: none;
+}
+
+.nav_bar .col-2 ul li {
+  float: left;
+  margin-left: 30px;
+  font-family: mont-black;
+  font-size: 17px;
+  display: inline-block;
+}
+
+.nav_bar .col-2 ul li a:hover {
+  color: #24964d;
+  padding-bottom: 10px;
+  border-bottom: solid 4px #24964d;
+}
+
+.navbar_button {
+  width: 130px;
+  height: 50px;
+  color: white;
+  background-color: #24964d;
+  font-family: mont;
+  border: none;
+  margin-top: -13px;
+  font-size: initial;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.banner {
+  padding: 25px 0;
+}
+
+.banner .col-1 {
+  width: 40%;
+  float: left;
+  background-color: black;
+  padding: 50px;
+  border-radius: 5px 0 0 5px;
+}
+
+.banner span {
+  font-family: mont;
+  color: #4c4c4c;
+  padding-left: 10px;
+}
+
+.research {
+  font-family: mont;
+  font-size: 30px;
+  color: white;
+  margin-top: 35px;
+}
+
+.readmore_button {
+  background-color: #24964d;
+  border: none;
+  color: white;
+  font-family: mont;
+  width: 150px;
+  height: 55px;
+  border-radius: 4px;
+  margin-top: 96px;
+  cursor: pointer;
+}
+
+.banner .col-2 {
+  float: left;
+  width: 60%;
+  border-radius: 0 4px 4px 0;
+}
+
+.banner .col-2 img {
+  width: 100%;
+  border-radius: 0 3px 3px 0;
+}
+
+.slide_pointers {
+  background-color: #24964d;
+  border-radius: 5px;
+  float: right;
+  padding: 5px 15px;
+  margin: -110px 50px;
+}
+
+.slide_pointers .prev {
+  width: 50%;
+  float: left;
+  padding: 20px;
+}
+
+.slide_pointers .next {
+  width: 50%;
+  float: right;
+  padding: 20px;
+}
+
+.about_us .col-1 {
+  float: left;
+  width: 38%;
+}
+
+.about_us .col-2 {
+  float: left;
+  width: 62%;
+}
+
+.about_us {
+  background-color: white;
+  padding: 50px 0;
+}
+
+.about_us img {
+  border-radius: 5px;
+}
+
+.about {
+  font-family: mont-black;
+  font-size: 24px;
+}
+
+.about_us .image {
+  width: 30%;
+  padding-top: 20px;
+  border-radius: 10px;
+  float: left
+}
+
+.about_us .content {
+  width: 70%;
+  float: left;
+  padding-top: 20px;
+}
+
+.about_us span {
+  padding: 2px 40px;
+  background-color: #24964d;
+  display: inline-block;
+}
+
+.moreschool {
+  font-family: mont;
+  width: 380px;
+  color: #808288;
+  padding: 30px 0;
+  line-height: 24px;
+}
+
+.news {
+  font-family: mont-black;
+  font-size: 24px;
+}
+
+.about_us .date {
+  font-family: mont;
+  color: #bfc9d9;
+  padding: 0 0 10px 20px;
+}
+
+.leaders {
+  float: left;
+  font-family: mont;
+  padding-left: 20px;
+  color: #4c4c4c;
+}
+
+.sleep {
+  margin-top: 26px;
+  border-radius: 10px;
+  float: left;
+}
+
+.grow {
+  float: left;
+  font-family: mont;
+  width: 70%;
+  padding-left: 20px;
+  color: #4c4c4c;
+  margin-bottom: 60px;
+}
+
+footer {
+  background-color: black;
+}
+
+footer .row {
+  text-align: center;
+  padding: 80px;
+}

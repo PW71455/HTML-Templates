@@ -1,0 +1,489 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container{
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+.clearfix{
+	clear: both;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+.active{
+	color: #69C6BA;
+	cursor: pointer;
+}
+
+@font-face {
+	font-family: openr;
+	src: url(../openr.ttf);
+}
+@font-face {
+	font-family: openb;
+	src: url(../openb.ttf);
+}
+@font-face {
+	font-family: openi;
+	src: url(../openi.ttf);
+}
+@font-face {
+	font-family: openl;
+	src: url(../openl.ttf);
+}
+@font-face {
+	font-family: opensb;
+	src: url(../opensb.ttf);
+}
+@font-face {
+	font-family: openeb;
+	src: url(../openeb.ttf);
+}
+header{
+	top: 0;
+	width: 100%;
+	z-index: 999;
+	position: fixed;
+	padding: 10px 0;
+	background-color: white;
+	}
+header .col-1{
+	width: 20%;
+	float: left;
+}
+header .col-2{
+	width: 80%;
+	float: right;
+	line-height: 3;
+}
+header .col-1 img {
+	float: left;
+	width: 50px;
+}
+header .col-1 img:hover {
+	box-shadow: : 20px;
+	}
+header .col-1 h2 {
+	float: left;
+	font-family: openb;
+	font-size: 28px;
+	padding-left: 10px;
+}
+header .col-2 ul{
+	list-style: none;
+	float: right;
+}
+
+header .col-2 ul li{
+	display: inline-block;
+}
+
+header .col-2 ul li a{
+	padding: 35px;
+    font-family: 'openb';
+    font-size: small;
+}
+header .col-2 ul li a:hover{
+	color: #69C6BA;
+}
+.banner{
+
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../home.jpg') no-repeat top;
+	background-size: cover;
+}
+.banner {
+	padding: 100px 0;
+	margin-top: 65px;
+}
+.banner h1{
+	color: white;
+	font-family: openl;
+	font-size: 50px;
+	text-align: center;'
+	padding-top: 50px;
+}
+.ellipses{
+	text-align: center;
+}
+.banner p{
+	color: white;
+	font-family: openl;
+	font-size: 20px;
+	text-align: center;
+}
+.point_down{
+	margin-top: 40px;
+	text-align: center;
+}
+.inner_control i .fa{
+	font-size: 60px;
+	color: white;
+	
+}
+.inner_control{
+	background-color: #69C6BA;
+    display: inline;
+    color: white;
+    border-radius: 50%;
+    padding: 17px;
+   }
+.inner_control:hover{
+	background-color: #C66995;
+}
+.booking_details{
+	width: 800px;
+	margin: 0 auto;
+	color: black;
+	font-family: openr;
+	padding: 20px;
+	background-color: white;
+	margin-top: 100px;
+}
+.booking_details .col-1,.booking_details .col-1{
+	width: 50%;
+}
+.booking_details h5{
+	font-family: openb;
+}
+.label_style{
+	font-family: openb;
+	font-size: 14px; 
+}
+.booking_details .row-1 .col-1{
+	width: 50%;
+	float: left;
+}
+.booking_details .row-1 .col-2{
+	width: 30%;
+	float: left;
+}
+.booking_details .row-1 .col-3{
+	width: 10%;
+	float: left;
+}
+.booking_details .row-1 .col-4{
+	width: 10%;
+	float: left;
+}
+
+.row-1 .col-1 input{
+	float: left;
+	width: 350px;
+	border: none;
+	color: grey;
+	padding: 10px;
+	font-family: openr;
+}
+
+#rooms{
+	float: left;
+    width: 180px;
+    padding: 10px;
+    border: none;
+    color: grey;
+    font-family: openr;
+}
+#adult{
+	float: left;
+    width: 70px;
+    padding: 10px;
+    border: none;
+    color: grey;
+    font-family: openr;
+}
+#children{
+	float: left;
+    width: 70px;
+    padding: 10px;
+    border: none;
+    color: grey;
+    font-family: openr;
+}
+.row-2{
+	width: 100%;
+	padding: 20px 0;
+}
+.row-2 .col-1,.row-2 .col-2{
+	width: 25%;
+	float: left;
+}
+.row-2 .col-3{
+	width: 50%;
+	float: left;
+}
+#form_button{
+	padding: 15px 125px;
+	background-color: #69C6BA;
+	color: white;
+	border: none;
+	margin-top: 25px;
+}
+
+#form_button:hover{
+	background-color: #C66995;
+}
+.row-2 .col-1 input{
+	float: left;
+	width: 180px;
+	border: none;
+	color: grey;
+	padding: 10px;
+	font-family: openr;
+}
+.row-2 .col-2 input{
+	float: left;
+	width: 180px;
+	border: none;
+	color: grey;
+	padding: 10px;
+	font-family: openr;
+}
+.Your_journey img{
+	width: 100%;
+	float: left;
+}
+.Your_journey{
+	background-color: #EFEFEF;
+}
+.section_header{
+	text-align: center;
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 50px 0; 
+}
+.Your_journey h2{
+	font-family: openl;
+	font-size: 30px; 
+}
+.Your_journey p{
+	padding: 20px 0;
+	font-family: openr;
+	font-size: 12px;
+}
+.bold{
+	font-family: openb;
+}
+
+.Your_journey button{
+	background-color: #69C6BA;
+	color: white;
+	border: none;
+	padding: 15px;
+	border-radius: 5px;
+}
+.Your_journey button:hover{
+	background-color: #C66995;
+	color: white;
+}
+.Your_journey .col-1, .Your_journey .col-2{
+	width: 50%;
+	float: left;
+}
+.Your_journey .packages_right{
+	background-color: #69C6BA;
+	color: white;
+	position: relative;
+	padding: 50px 60px;
+	margin: 120px 50px 0 -50px;
+}
+.Your_journey .packages_button_right{
+	padding: 15px;
+    background-color: white;
+    color: #69C6BA;
+    border: none;
+    }
+.Your_journey .packages_left{
+	background-color: #C66995;
+	color: white;
+	position: relative;
+	padding: 50px 60px;
+	margin: 100px -50px 80px 50px;
+}
+.Your_journey .packages_left:hover{
+	background-color: #C66995;
+}
+.Your_journey .packages_button_left{
+	padding: 15px;
+    background-color: white;
+    color: #C66995;
+    border: none;
+    }
+.Your_journey .packages_button_left:hover{
+	background-color: #69C6BA;
+	color: white;
+}
+.Your_journey .packages h2{
+	font-family: openl;
+	font-size: 30px;
+}
+
+.responsive_iframe {
+  width: 900px;
+  height: 925px;
+  border: none;
+  color: white;
+  margin: 50px 220px;
+}
+.region_slider ul{
+	list-style: none;
+}
+.region_slider ul li {
+	float: left;
+	padding: 45px;
+	display: inline-block;
+	background-color: #69C6BA;
+	}
+#tabs{
+	cursor: pointer;
+	width: 14%;
+	text-align: center;
+	color: white;
+	font-family: openr;
+}
+
+.region_pics{
+	text-align: center;
+	}
+.region_slider ul li:hover{
+	background-color: #C66995;
+}
+.cname{
+	content: "north ameriaca";
+}
+.attractions{
+	padding: 50px 200px;
+}
+.row{
+	margin: 20px 0;
+}
+.attractions .row{
+	box-shadow: 2px 2px #e4dede;
+}
+.attractions .col-1{
+	width: 31%;
+	float: left;
+}
+.attractions .col-2{
+	width: 45%;
+	float: left;
+	font-family: openl;
+}
+.attractions .col-3{
+	width: 20%;
+	float: right;
+}
+.attractions .col-1 img{
+	width: 100%;
+}
+.attractions .col-2 h3{
+	font-family: 'openb';
+    font-size: 18px;
+}
+
+.city{
+	color: #C66995;
+	font-family: 'openb';
+    font-size: 14px;
+    padding: 10px 0;
+	}
+    
+.att_p{
+ 	font-size: 12px;
+    font-family: 'openr';
+}
+.outer_div{
+	padding: 40px 0 0 40px;
+}
+#continue_gradient {
+	padding: 89px 0;
+	float: right;
+	height: 200px;
+	width: 200px;
+	background: linear-gradient(to top right, #33ccff 0%, #ffffff 81%);
+	}
+.gradient_title{
+	padding: 20px;
+	color: white;
+	font-family: 'openb';
+	font-size: 14px;
+	text-align: center;
+}
+.att_bt{
+	color: white;
+	font-family: openr;
+	background-color: #69C6BA;
+	padding: 15px 20px;
+	border: none;
+	margin-left: 400px; 
+}
+.att_bt:hover{
+	background-color: #C66995;
+}	
+#active_loc{
+	background-color: #C66995;
+}
+.map{
+	width: 1349px;
+}
+.mapapi form{
+	width: 450px;
+    background-color: white;
+    padding: 20px;
+    color: grey;
+    float: right;
+    position: absolute;
+    left: 863px;
+    top: 3965px;
+}
+.map_pl1{
+	padding: 10px;
+	border: none;
+	background-color: #eeeeee; 
+	color: grey;
+	width: 201px;
+	margin-bottom: 10px;
+}
+.map_pl2{
+	padding: 10px;
+	border: none;
+	background-color: #eeeeee; 
+	color:  grey;
+	width: 407px;
+	margin-bottom: 10px;
+}
+.map_bt{
+	color: white;
+	font-family: openr;
+	background-color: #69C6BA;
+	padding: 10px 137px;
+	border: none;
+}
+.map_bt:hover{
+	background-color: #C66995;
+	}
+textarea{
+	border: none;
+	color: grey; 
+	padding: 10px;
+	background-color: #eeeeee; 
+	margin-bottom: 10px;
+	font-family: openr;
+}
+footer{
+	background-color: #69C6BA;
+    padding: 40px;
+    margin-top: -4px;
+}
+footer p{
+	font-family: 'openr';
+	font-size: 14px;
+	color: white;
+	text-align: center;
+}

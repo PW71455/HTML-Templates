@@ -1,0 +1,526 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+@font-face {
+  font-family: mulir;
+  src: url(../mulir.ttf);
+}
+
+@font-face {
+  font-family: nunr;
+  src: url(../nunr.ttf);
+}
+
+@font-face {
+  font-family: nunb;
+  src: url(../nunb.ttf);
+}
+
+@font-face {
+  font-family: tnr;
+  src: url(../tnr.ttf);
+}
+.container {
+	width: 1170px;
+	margin: auto;
+}
+.clearfix{
+	clear: both;
+}
+header {
+	border-top: 7px solid #29CA8E;
+	background-color: white;
+	padding: 30px 0px;
+	top: 0;
+	position: fixed;
+	width: 100%;
+	z-index: 999;
+}
+header a {
+	padding: 30px 25px;
+	color: black;
+	transition: all 0.2s ease-in-out;
+    margin: 0 10px;
+}
+header a:hover {
+	background-color: #29CA8E;
+}
+header .logo h2 {
+	font-family: nunb;
+	line-height: 20px;
+	cursor: pointer;
+}
+
+header .col-1 {
+	width: 10%;
+	float: left;
+	text-align: left;
+	
+}
+
+header .col-2 {
+	width: 70%;
+	float: left;
+	text-align: center;
+}
+
+header .col-2 li {
+	display: inline-block;
+	font-family: nunr;
+	padding-left: 5px;
+}
+header .phone{
+	float: left;
+    color: white;
+    background-color: #29CA8E;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 2;
+    margin-right: 10px;
+    cursor: help;
+}
+
+header .col-3 {
+	width: 15%;
+	text-align: right;
+	font-family: nunr;
+	float: right;
+}
+.contact{
+	float: left;
+	cursor: copy;
+}
+.banner {
+	background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../girl.png") no-repeat top;
+	padding: 130px 0 365px 0;
+	color: white;
+	margin-top: 90px;
+}
+
+.text-banner h1 {
+	font-family: nunr;
+	font-weight: bold;
+	font-size: 45px;
+} 
+
+.btn-banner {
+	background-color: transparent;
+	border-radius: 30px;
+	padding: 20px 40px;
+	border: 1px solid white;
+	cursor: pointer;
+	margin-top: 100px;
+}
+.btn-banner:hover{
+	cursor: pointer;
+    background-color: #29CA8E;
+}
+.text-banner p {
+  padding: 20px 0px;
+  font-size: 20px;
+}
+
+.number {
+    font-size: 25px;
+    font-weight: 900;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    padding: 15px;
+    background: #3F51B5;
+    color: white;
+    text-align: center;
+    font-family: tnr;
+  }
+
+#blogs {
+	padding: 100px 0 50px 0;
+}
+
+#blogs .col-1, #blogs .col-2,#blogs .col-3{
+ 	float: left;
+ 	margin-right: 39px;
+ 	padding: 50px 40px;
+ 	width: 30%;
+ 	border: 1px #F9F9F9; 
+ 	background-color: #F9F9F9;
+ 	text-align: left;
+ 	font-family: nunr;
+ 	height: 350px;
+}
+
+#blogs .col-1 h2,#blogs .col-2 h2,#blogs .col-3 h2{
+	padding: 30px 0px;
+}
+#blogs .col-1 p,#blogs .col-2 p,#blogs .col-3 p{
+	text-align: justify;
+    font-size: 16px;
+}
+#Signup_section {
+	margin: auto;
+}
+#Signup_section .col-1{
+	width: 50%;
+	padding: 100px 0px;
+	display: inline-block;
+}
+#Signup_section .profess {
+	float: left;
+    background-color: #29CA8E;
+    border-radius: 50%;
+    height: 60px;
+    width: 65px;
+    padding: 20px;
+    margin-right: 20px;
+    margin-top: 5px;
+    text-align: center;
+}
+#Signup_section .col-2{
+	float: right;
+	width: 50%;
+	padding: 50px 0px;
+	border: 1px solid;
+    border-radius: 50%;
+    box-sizing: border-box;
+    color: white;
+    display: inline-block;
+ }
+.input_field{
+	border: none;
+	background-color: black;
+	color: grey;
+	margin-top: 40px;
+	width: 80%;
+	border-bottom: 1px solid grey;
+}
+
+#input-bt {
+	margin-top: 40px;
+	border-radius: 50px;
+	font-family: nunr;
+	padding: 20px 40px;
+	border: 1px solid grey;
+	margin-top: 50px;
+}
+
+#Signup_section  .col-1 h2{
+	margin: 20px 0;
+	font-family: nunr;
+}
+
+#Signup_section  .col-1 .train{
+	font-family: nunr;
+}
+
+#Signup_section  .col-1 h2 p{
+	font-family: nunr;
+}
+.bk {
+	padding: 20px 0;
+
+}
+.bk .profess img{
+	padding-right: 20px;
+}
+.circle {
+	background-color: black;
+	color: whitesmoke;
+    width: 500px;
+	height: 500px;
+	border-radius: 50%;
+	float: right;
+	padding: 50px 40px;
+    text-align: center;
+}
+#Signup_section  .col-2 h2 {
+	font-family: nunr;
+	color: whitesmoke;
+	font-size: 40px;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.input-class{
+	background-color: transparent; 
+	border-bottom: 1px solid whitesmoke; 
+	color: white;
+	width: 80%;
+    height: 50px;
+}
+
+.get_started{
+	border-radius: 50px;
+	background-color: whitesmoke;
+	border: 1px solid white;
+	padding: 30px;
+	width: 200px;
+	height: 50px;
+	margin-top: 30px;
+	font-size: 16px;
+}
+
+#Teachers_section{
+	padding: 50px 0; 
+	background-color: #F9F9F9;
+	}
+
+#Teachers_section #tt-text{
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+#Teachers_section .teachers img {
+	height: 275px;
+}
+
+.teachers {
+	font-family: nunr;
+	text-align: center: 
+}
+
+#Teachers_section .sub-sub{
+	background-color: #fff;
+    padding: 40px 20px;
+}
+
+#Teachers_section .sub-sub h2{
+	text-align: left;
+}
+	
+#Teachers_section .sub-sub p{
+	text-align: left;
+	border-bottom: 1px solid #F9F9F9;
+	padding-bottom: 30px;
+}
+
+#tt-text h2{ 
+	font-size: xx-large;
+	text-align: center;
+}
+
+#tt-text p{
+	text-align: center;
+}
+
+.tpics {
+	display: inline-block;
+}
+
+#tt-text .subdiv{
+	width: 22%;
+	padding-left: 32px;
+}
+
+#popular_courses{
+	padding: 100px 0px;
+	font-family: nunr;
+	text-align: center;
+}
+
+#popular_courses .subdiv img{
+	width: 100%;
+}
+
+#popular_courses .row5_head{
+	padding-bottom: 100px;
+	text-align: center;
+	font-family: nunr;
+}
+
+#popular_courses .row5_head h2{
+	font-size: xx-large;
+}
+
+#popular_courses .tt-pp{
+	text-align: left;
+	}
+
+#popular_courses .tt-pp p{
+	color: grey;
+}
+
+#popular_courses .line {
+	border-top: 1px solid lightgray;
+	padding-bottom: 70px;
+}
+#popular_courses .h2p{
+	padding: 20px;
+}
+#popular_courses .row5_subdiv{
+	display: inline-block;
+	text-align: center;
+}
+
+.subdiv{
+	float: left;
+	margin-right: 31px;
+}
+
+.row5_subdiv .subdiv{
+	width: 30%;
+	background-color: #F9F9F9;
+	margin-right: 39px;
+}
+
+.row5_subdiv .subdiv img{
+	width: 100%;
+}
+
+#Student_Reviews_section{
+	padding-bottom: 100px;
+	background-color: #F9F9F9;
+}
+.student_reviews{
+	font-family: nunr;
+	padding: 100px 0px;
+	text-align: center;
+}
+.reviews_head{
+	text-align: center;
+	font-family: nunr;
+	padding: 50px 0 100px 0;
+}
+
+.reviews_head h2{
+	font-size: xx-large;
+}
+
+.reviews_head img {
+	height: 300px;
+}
+
+#Student_Reviews_section .sr_subdiv{
+	width: 33%;
+	float: left;
+	padding: 20px 60px;
+	text-align: justify-all;
+
+}
+#Student_Reviews_section .srm{
+	float: left;
+	padding-top: 10px;
+}
+
+#review_color .srm h3, #review_color .srm p{
+	font-family: nunr;
+}
+
+.sri img{
+	float: left;
+	width:80px;
+	border-radius: 50%;
+	border: none;
+	padding-right: 20px;
+}
+.sr_subdiv .pp p {
+	padding-top: 30px;
+	font-family: nunr;
+}
+
+.outdiv{
+	display: inline-block;
+}
+
+#contact_form{
+	background-color: #3F51B5;
+	padding: 100px 50px;
+	}
+
+#contact_form .col-1 h2{
+	font-size: xx-large;
+}
+#contact_form .col-1 p{
+	padding-bottom: 20px; 
+}	
+#contact_form .col-1, #contact_form .col-2 {
+	width: 50%;
+	font-family: nunr;
+	color: white;
+	float: left;
+}
+
+#fname, #email {
+	border: none;
+	width: 96%;
+	height: 50px;
+	margin: 10px 0;
+	padding-left: 20px;
+	border-radius: 6px;  
+	font-family: nunr;
+}
+#text-area { 
+	margin: 15px 0;
+	border-radius: 6px;
+	padding: 12px;
+	font-family: nunr;
+}
+
+#contact_form button {
+	border: none;
+	padding: 20px 35px;
+	border-radius: 30px;
+	font-family: nunr;
+	cursor: pointer;
+}
+#contact_form button:hover {
+	cursor: pointer;
+	background-color: #29CA8E;
+}
+.ct-img img{
+	width: 100%;
+}
+
+footer{
+	background-color: black;
+	color: white;
+	font-family: nunr;
+	padding: 20px 0;
+
+}	
+footer .col-1, footer .col-2, footer .col-3 {
+	width: 33%;
+	text-align: left;
+	padding: 50px 0px;
+	float: left;
+
+}
+
+footer .row-7 {
+	display: inline-block;
+	width: 100%;
+}
+
+footer .col-1 p, footer .col-2 p, footer .col-3 p{
+	color: grey;
+
+}
+
+#place{
+	border: none;
+	width: 210px;
+    padding: 10px;
+    background-color: transparent;
+	border-bottom: 1px solid grey;
+} 
+
+.place-bt{
+	color: grey;
+	background-color: black;
+	margin-top: 15px;
+    padding: 20px 50px;
+    border-radius: 35px;
+    border: 1px solid grey;
+}
+
+.row-7 .col-3 p {
+	padding-top: 10px;
+}
